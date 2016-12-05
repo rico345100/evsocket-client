@@ -1,0 +1,19 @@
+{
+  "name": "evsocket-client",
+  "version": "1.0.0",
+  "description": "EvSocket is abstracted WebSocket module with event driven interface and rich functinalities.",
+  "main": "evsocket-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rico345100/evsocket-client"
+  },
+  "keywords": [
+    "WebSocket",
+    "ws"
+  ],
+  "author": ".modernator",
+  "license": "MIT"
+}
