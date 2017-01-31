@@ -1,7 +1,4 @@
-# EvSocket Client
-Client module of [evsocket](https://www.npmjs.com/package/evsocket).
-Abstracted WebSocket module with event driven interface and rich functionalities.
-
+# EvSocket-Client
 
 ## Why use this?
 There is well-known alternative for this module, Socket.io, but unfortunately Socket.io doesn't support React Native, because it uses Node.js features inside.
@@ -9,6 +6,10 @@ This module built for provide highly abstracted WebSocket interface without any 
 When I was used WebSocket with vanila JS, it was really hard to make something rich.
 EvSocket provides similar interface like Socket.io with only uses WebSocket + JavaScript features so it is safe to use any WebSocket supporting JavaScript platform.
 
+## About
+Client module for [evsocket](https://www.npmjs.com/package/evsocket).
+Abstracted WebSocket module with event driven interface and rich functionalities.
+See full example [here](https://github.com/rico345100/evsocket-example).
 
 ## Features
 - Event Driven Interface
@@ -18,6 +19,9 @@ EvSocket provides similar interface like Socket.io with only uses WebSocket + Ja
 - Channel system(like Room in Socket.io)
 - Socket Broadcasting
 - And more...!
+
+## Updates
+- [1.0.212] Fixed that getting Blob instead of ArrayBuffer when binary data received.
 
 
 ## API

@@ -1,6 +1,6 @@
 {
   "name": "evsocket-client",
-  "version": "1.0.0",
+  "version": "1.0.212",
   "description": "EvSocket is abstracted WebSocket module with event driven interface and rich functinalities.",
   "main": "evsocket-client.js",
   "scripts": {

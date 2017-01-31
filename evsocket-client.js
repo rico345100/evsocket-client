@@ -91,6 +91,7 @@
 		options = options || {};
 
 		this.socket = new WebSocket(uri, options.protocol);
+		this.socket.binaryType = 'arraybuffer';
 		this.ev = {};
 		this.channelName = '';
 
